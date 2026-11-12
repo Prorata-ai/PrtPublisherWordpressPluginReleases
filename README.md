@@ -42,7 +42,7 @@ gist-answers.zip
 
 ## How to cut a release
 
-The steps below use `v1.0.16` as the example. Run steps 1–2 in the plugin **source** repo and steps 4–6 in **this** repo.
+The steps below use `v1.0.16` as the example. Run steps 1–2 in the plugin **source** repo and step 3 in **this** repo.
 
 ### 1. Build the production release of the plugin
 
@@ -64,7 +64,7 @@ Copy the `gist-answers-wp-plugin-<version>.zip` into the `production` directory.
 Tag and create the release:
 
 ```sh
-VERSION=1.0.17
+VERSION=1.0.16
 
 git tag -a "v$VERSION" -m "Gist Answers Wordpress Plugin v$VERSION release"
 git push origin "v$VERSION"
